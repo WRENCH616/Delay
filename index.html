@@ -91,22 +91,22 @@
 
                     // Artist, url
                     if (info[i].url != "" && info[i].url != null) {
-                        $("<td width='30%'>" +
+                        $("<td width='35%'>" +
                             "<a href='" + info[i].url +
                             "' target='_blank'>" + info[i].artist + "</a></td>").appendTo(str);
                     }
                     else{
-                        $("<td width='30%'>" + info[i].artist + "</td>").appendTo(str);
+                        $("<td width='35%'>" + info[i].artist + "</td>").appendTo(str);
                     }
                     
                     //sabun
                     if (info[i].url_diff != "" && info[i].url_diff != null) {
-                        $("<td width='15%'>" +
+                        $("<td width='10%'>" +
                             "<a href='" + info[i].url_diff +
                             "' target='_blank'>" + info[i].name_diff + "</a></td>").appendTo(str);
                     }
                     else{
-                        $("<td width='15%'>" + info[i].name_diff + "</td>").appendTo(str);
+                        $("<td width='10%'>" + info[i].name_diff + "</td>").appendTo(str);
                     }
                     
                     // Comment
