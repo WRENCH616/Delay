@@ -101,16 +101,16 @@
                     
                     //sabun
                     if (info[i].url_diff != "" && info[i].url_diff != null) {
-                        $("<td width='25%'>" +
+                        $("<td width='15%'>" +
                             "<a href='" + info[i].url_diff +
                             "' target='_blank'>" + info[i].name_diff + "</a></td>").appendTo(str);
                     }
                     else{
-                        $("<td width='25%'>" + info[i].name_diff + "</td>").appendTo(str);
+                        $("<td width='15%'>" + info[i].name_diff + "</td>").appendTo(str);
                     }
                     
                     // Comment
-                    $("<td width='10%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
